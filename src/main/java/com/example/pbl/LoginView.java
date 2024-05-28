@@ -9,12 +9,12 @@ import model.UsuariosModel;
 public class LoginView {
 
     @FXML
-    Button btnLogin;
+    private Button btnLogin;
 
     @FXML
-    TextField txtUser;
+    private TextField txtUser;
     @FXML
-    PasswordField txtSenha;
+    private PasswordField txtSenha;
 
     @FXML
     private Hyperlink linkCadastrar;

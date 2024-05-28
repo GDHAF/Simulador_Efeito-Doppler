@@ -17,22 +17,22 @@ public class ExperimentoController {
     SessaoController sessao = new SessaoController();
 
     @FXML
-    protected Button btnSimular;
+    private Button btnSimular;
 
     @FXML
-    protected TextField txtFrequencia;
+    private TextField txtFrequencia;
     @FXML
-    protected TextField txtPotencia;
+    private TextField txtPotencia;
     @FXML
-    protected TextField txtVelocidade;
+    private TextField txtVelocidade;
     @FXML
-    protected TextField txtDuracao;
+    private TextField txtDuracao;
     @FXML
-    protected TextField txtDistancia_em_x;
+    private TextField txtDistancia_em_x;
     @FXML
-    protected TextField txtDistancia_eixo_y;
+    private TextField txtDistancia_eixo_y;
     @FXML
-    protected LineChart<?, ?> graphFrequencia;
+    private LineChart<?, ?> graphFrequencia;
 
 
     @FXML
